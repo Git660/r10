@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from './mport'
+import {user,user1}from './mport'
 const page = () => {
   console.log(profile)
   return (
@@ -9,6 +10,8 @@ const page = () => {
       
 
     </h1>
+    <p>{}curly braces is used for const import</p>
+    <h2>{user.name}</h2>
     </div>
   )
 }
