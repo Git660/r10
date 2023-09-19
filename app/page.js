@@ -1,6 +1,6 @@
 import React from 'react'
-import profile from './mport'
-import {user,user1}from './mport'
+import profile from './centralise'
+import {user,user1}from './centralise'
 const page = () => {
   console.log(profile)
   return (
