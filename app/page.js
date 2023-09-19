@@ -1,8 +1,15 @@
 import React from 'react'
-
+import profile from './mport'
 const page = () => {
+  console.log(profile)
   return (
-    <div>welcome to next js</div>
+    <div><h1>
+      {profile.name}
+      {profile.age}
+      
+
+    </h1>
+    </div>
   )
 }
 
